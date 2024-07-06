@@ -91,7 +91,7 @@ def cifrar_mensaje(mensaje, diccionario):
 
 
 # Ejemplo de uso
-mensaje = "ABCDEFGHI"
+mensaje = "HOLA SOY OSWALDO"
 mensaje_cifrado = cifrar_mensaje(mensaje, diccionario_cifrado)
 print("Mensaje a cifrar:", mensaje)
 print("Mensaje cifrado:", mensaje_cifrado)
