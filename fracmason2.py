@@ -25,8 +25,6 @@ cruz2 = [
 secciones = [cuadricula1, cuadricula2, cruz1, cruz2]
 
 # Función para rotar las letras a la izquierda
-
-
 def rotar_izquierda(seccion, num_rotaciones):
     filas = len(seccion)
     columnas = len(seccion[0])
@@ -41,8 +39,6 @@ def rotar_izquierda(seccion, num_rotaciones):
     return seccion
 
 # Función para intercambiar la letra en la esquina superior derecha con la del centro
-
-
 def intercambiar_esquina_centro(seccion):
     filas = len(seccion)
     columnas = len(seccion[0])
@@ -51,7 +47,6 @@ def intercambiar_esquina_centro(seccion):
         seccion[0][2] = seccion[1][1]
         seccion[1][1] = temp
     return seccion
-
 
 # Número de rotaciones para cada sección
 num_rotaciones = [2, 2, 0, 0]  # 1 rotación para cada sección
